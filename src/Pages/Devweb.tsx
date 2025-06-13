@@ -1,6 +1,12 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Github, ArrowUpRight, Code2 } from 'lucide-react';
 import { motion } from "framer-motion";
+import dashBG from '../assets/mail.png';
+import flaskBG from '../assets/flask.png';
+import QtBG from '../assets/qtcreator.png';
+import ScrableBG from '../assets/scrable.png';
+
+
 const Devweb = () => {
     const getFadeInDrop = (delay = 0) => ({
         initial: { y: -100, opacity: 0 },
@@ -19,7 +25,7 @@ const Devweb = () => {
     const projects = [
         {
             id: 1,
-            image: "/mail.png",
+            image: dashBG,
             title: "Dashboard IA d’Automatisation des E-mails",
             date: "Janvier 2025",
             description: "Conception d’un dashboard React.js pour une application d’automatisation des e-mails par IA. Interface responsive permettant " +
@@ -32,7 +38,7 @@ const Devweb = () => {
         },
         {
             id: 2,
-            image: "/flask.png",
+            image: flaskBG,
             title: "Back-End de l’Application d’Automatisation des Mails par IA (Flask & API de ChatGPT)",
             date: "Janvier 2025",
             description: "Développement du back-end en Flask pour traiter automatiquement les e-mails reçus via l’API ChatGPT. Analyse du contenu, génération de réponses et communication avec le front React pour une gestion intelligente des mails.",
@@ -44,7 +50,7 @@ const Devweb = () => {
         },
         {
             id: 3,
-            image: "/qtcreator.png",
+            image: QtBG,
             title: "Logiciel de Gestion Aérienne – Employés, Matériel & Clients (C++ / Qt)",
             date: "Février 2024",
             description: "Développement d’un logiciel de gestion complet en C++ (POO) avec Qt, destiné à une compagnie aérienne. Interface graphique permettant de gérer efficacement les employés, " +
@@ -58,7 +64,7 @@ const Devweb = () => {
         ,
         {
             id: 4,
-            image: "/scrable.png",
+            image: ScrableBG,
             title: "Scrabble Automatique (C++)",
             date: "Février 2024",
             description: "Développement d’un jeu de Scrabble automatique en C++, capable de générer, valider et jouer des mots selon les règles officielles. Implémentation d’une logique de jeu autonome avec gestion du plateau, du score, et d’un dictionnaire intégré. " +

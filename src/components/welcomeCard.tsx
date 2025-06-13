@@ -1,5 +1,6 @@
 import { Github, Linkedin } from 'lucide-react';
-
+import avatar from '../assets/avatar.png';
+import tableau from '../assets/tableau.png';
 const WelcomeCard = () => {
     return (
         <div className="bg-gray-900 border border-gray-700 rounded-xl p-4 sm:p-6 text-white  h-full min-h-[200px] max-h-[400px] flex flex-col hover:border-gray-50 transition-colors duration-100 delay-50 backdrop-blur-md">
@@ -19,7 +20,7 @@ const WelcomeCard = () => {
                     </p>
                 </div>
                 <div>
-                    <img src="../avatar.png" alt="avatar" className="w-250 h-50  object-contain rounded-full border mt-15" />
+                    <img src={avatar} alt="avatar" className="w-250 h-50  object-contain rounded-full border mt-15" />
                 </div>
             </div>
 
@@ -35,7 +36,7 @@ const WelcomeCard = () => {
                 </a>
                 <a href="https://public.tableau.com/app/profile/anes7242/vizzes" target="_blank" rel="noopener noreferrer"
                    className="w-10 h-10 bg-gray-800 border border-gray-600 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors">
-                    <img src="../tableau.png" alt="tableau" className="w-12 h-12" />
+                    <img src={tableau} alt="tableau" className="w-12 h-12" />
                 </a>
                 <a href="mailto:aneserrih20@gmail.com"
                    className="ml-auto px-4 py-2 bg-white/5 text-white border border-white/20 rounded-md font-semibold hover:bg-white/10 transition duration-300">

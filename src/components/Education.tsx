@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
-
+import EducBG from '../assets/education.png';
 const Education = () =>{
     return (
         <div
             className="bg-gray-900 border border-gray-700 rounded-xl p-4 sm:p-6 text-white h-full min-h-[120px] bg-cover bg-center relative overflow-hidden hover:border-gray-50 transition-colors duration-100 delay-50"
-            style={{ backgroundImage: 'url(../education.png)' }}
+            style={{ backgroundImage: `url(${EducBG})` }}
         >
             <div className="absolute inset-0 bg-black/60 z-0" />
             <Link

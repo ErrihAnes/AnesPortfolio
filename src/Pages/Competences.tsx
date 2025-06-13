@@ -70,7 +70,7 @@ const Competences = () => {
         },
         {
             id: 3,
-            title: "AI/ML",
+            title: "AI/Data",
             tags: [
                 { name: "Python", icon: <FaPython className="text-yellow-400" /> },
                 { name: "Pandas", icon: <SiPandas className="text-white" /> },

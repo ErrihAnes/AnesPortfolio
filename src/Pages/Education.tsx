@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import {Link as RouterLink} from "react-router-dom";
+import Lyon1BG from '../assets/Lyon1.jpg';
+import UboBG from '../assets/Brest.jpg';
+
 const Education =()=>{
     const getFadeInDrop = (delay = 0) => ({
         initial: { y: -100, opacity: 0 },
@@ -17,7 +20,7 @@ const Education =()=>{
     const formation = [
         {
             id:1,
-            image:"../Lyon1.jpg",
+            image:Lyon1BG,
             date: "2022/2023",
             title:"Troisième année Licence informatique",
             fac:"Université Claud Bernard Lyon 1",
@@ -25,7 +28,7 @@ const Education =()=>{
         },
         {
             id:1,
-            image:"../Lyon1.jpg",
+            image:Lyon1BG,
             date: "2023/2024",
             title:"Deuxième année Licence informatique",
             fac:"Université Claud Bernard Lyon 1",
@@ -33,7 +36,7 @@ const Education =()=>{
         },
         {
             id:1,
-            image:"../Brest.jpg",
+            image:UboBG,
             date: "2024/2025",
             title:"Première année Licence informatique",
             fac:"Université de Bretagne Occidentale",

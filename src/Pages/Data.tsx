@@ -1,6 +1,10 @@
 import { Link as RouterLink } from "react-router-dom";
-import { Github, ArrowUpRight, Code2 } from 'lucide-react';
+import { ArrowUpRight, Code2 } from 'lucide-react';
 import { motion } from "framer-motion";
+import t1 from '../assets/tab1.png';
+import t2 from '../assets/tab2.png';
+import  t3 from '../assets/tab3.png';
+import  t4 from '../assets/tab4.png';
 const Data = () => {
     const getFadeInDrop = (delay = 0) => ({
         initial: { y: -100, opacity: 0 },
@@ -19,53 +23,53 @@ const Data = () => {
     const projects = [
         {
             id: 1,
-            image: "/tab1.png",
+            image: t1,
             title: "Dashboard Interactive – Revenus d’une Entreprise de Papiers",
             date: "Janvier 2025",
             description: "Visualisation interactive des revenus d’une entreprise de papiers avec graphiques, filtres et indicateurs pour analyser les performances financières." +
                 "de générer, modifier et suivre des e-mails intelligents. Stack utilisée : React, Tailwind CSS, Axios, React Router.",
             tags: ["Tableau","Data Analyse"," Python - Pandas"," Python - Numpy"],
             links: {
-                github: "https://public.tableau.com/app/profile/anes7242/viz/Entreprisedepapiers/Tableaudebord1",
-                live: "#",
+                github: "",
+                live: "https://public.tableau.com/app/profile/anes7242/viz/Entreprisedepapiers/Tableaudebord1",
             },
         },
         {
             id: 2,
-            image: "/tab2.png",
+            image: t2,
             title: "Dashboard – Films & Séries (1980–2021)",
             date: "Janvier 2025",
             description: "Création d’une dashboard interactive pour explorer les films et séries sortis entre 1980 et 2021. Visualisation des données par genres, années, notes, et popularité. Interface responsive avec filtres dynamiques, graphiques et statistiques claires pour une analyse intuitive.",
             tags: ["Tableau","Data Analyse"," Python - Pandas"," Python - Numpy"],
             links: {
-                github: "https://github.com/ErrihAnes/Mail-Application",
-                live: "#",
+                github: "",
+                live: "https://public.tableau.com/app/profile/anes7242/viz/FilmsSeries1980-2021/Tableaudebord1",
             },
         },
         {
             id: 3,
-            image: "/tab3.png",
+            image: t3,
             title: "Dashboard – Ventes & Clients d’un Supermarché",
             date: "Février 2024",
             description: "Développement d’une dashboard analytique pour visualiser les produits vendus, le comportement des clients et les tendances d’achat. Affichage interactif des ventes par catégorie, période, client et localisation pour optimiser la stratégie commerciale",
             tags: ["Tableau","Data Analyse"," Python - Pandas"," Python - Numpy"],
             links: {
-                github: "https://github.com/ErrihAnes/Gestion-des-Vols",
-                live: "#",
+                github: "",
+                live: "https://public.tableau.com/app/profile/anes7242/viz/Supermarch_16714023508530/Tableaudebord1",
             },
         }
         ,
         {
             id: 4,
-            image: "/tab4.png",
+            image: t4,
             title: "Dashboard – Suivi de la COVID-19",
             date: "Février 2024",
             description: "Création d’une dashboard interactive pour suivre l’évolution de la COVID-19 : cas confirmés, guérisons, décès et taux de vaccination par pays et par période. Visualisation claire via graphiques dynamiques, cartes et filtres temporels pour une analyse rapide et précise." +
                 "le matériel (avions, équipements) et les clients. Architecture modulaire et orientée objet pour une maintenance facilitée.",
             tags: ["Tableau","Data Analyse"," Python - Pandas"," Python - Numpy"],
             links: {
-                github: "https://github.com/ErrihAnes/Scrabble-automatique",
-                live: "#",
+                github: "",
+                live: "https://public.tableau.com/app/profile/anes7242/viz/Covide_DashBord/Tableaudebord1",
             },
         }
         ,
@@ -130,9 +134,7 @@ const Data = () => {
 
                             {/* Liens en bas */}
                             <div className="mt-auto flex justify-end items-center pt-4 gap-4">
-                                <a href={project.links.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-400 hover:text-white transition-colors">
-                                    <Github size={22} />
-                                </a>
+
                                 <a href={project.links.live} target="_blank" rel="noopener noreferrer" aria-label="Live Demo" className="text-gray-400 hover:text-white transition-colors">
                                     <ArrowUpRight size={22} />
                                 </a>

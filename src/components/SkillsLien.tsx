@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
-
+import CompBg from '../assets/skills.jpg';
 const SkillsLien = ()=>{
     return (
         <div
             className="bg-gray-900 border border-gray-700 rounded-xl p-4 sm:p-6 text-white h-full min-h-[120px] bg-cover bg-center relative overflow-hidden hover:border-gray-50 transition-colors duration-100 delay-50"
-            style={{ backgroundImage: 'url(../skills.jpg)' }}
+            style={{ backgroundImage: `url(${CompBg})` }}
         >
             <div className="absolute inset-0 bg-black/60 z-0" />
             <Link
