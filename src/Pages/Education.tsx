@@ -21,7 +21,7 @@ const Education =()=>{
         {
             id:1,
             image:Lyon1BG,
-            date: "2022/2023",
+            date: "2024/2025",
             title:"Troisième année Licence informatique",
             fac:"Université Claud Bernard Lyon 1",
             description:"Base de données avancés , programmation oriantée objet, Reseau, Programmation concurente, Développement Web"
@@ -37,7 +37,7 @@ const Education =()=>{
         {
             id:1,
             image:UboBG,
-            date: "2024/2025",
+            date: "2022/2023",
             title:"Première année Licence informatique",
             fac:"Université de Bretagne Occidentale",
             description:"Algorithme , Mécanique, Eléctronique, Électronique numérique"
