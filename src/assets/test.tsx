@@ -3,7 +3,7 @@ const Education = () => {
         {
             id: 1,
             image: "../education.png",
-            date: "2022/2023",
+            date: "2024/2025",
             title: "Troisième année Licence informatique",
             fac: "Université Claude Bernard Lyon 1",
             description: "Base de données avancées, programmation orientée objet, Réseau, Programmation concurrente, Développement Web"
@@ -19,7 +19,7 @@ const Education = () => {
         {
             id: 3,
             image: "../education.png",
-            date: "2024/2025",
+            date: "2022/2023",
             title: "Troisième année Licence informatique",
             fac: "Université de Bretagne Occidentale",
             description: "Algorithmes, Mécanique, Électronique, Électronique numérique"
