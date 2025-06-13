@@ -1,4 +1,5 @@
-
+import cvdata from '../assets/AnesErrihdata.pdf'
+import cvweb from '../assets/AnesERRIHweb.pdf'
 const SocialCard = () => {
     return (
         <div className="bg-gray-900 border border-gray-700 rounded-xl p-4 sm:p-6 text-white h-full min-h-[300px] xl:min-h-[400px] max-h-[400px]  hover:border-gray-50 transition-colors duration-100 delay-50 flex flex-col space-y-2 ">
@@ -16,8 +17,8 @@ const SocialCard = () => {
             <div id="cv" className="flex flex-col space-y-6  space-x-3 mt-4">
                 <h2>📄 Téléchargez mon CV : </h2>
 
-                    <a className="hover:text-gray-700 text-red-300 transition-colors transition-colors duration-100" href="../../AnesERRIHweb.pdf" target="_blank" download>Télécharger le CV - Développement Web</a>
-                    <a className="hover:text-gray-700 text-red-300 transition-colors transition-colors duration-100" href="../../AnesErrihdata.pdf" target="_blank" download>Télécharger le CV - Data Science</a>
+                    <a className="hover:text-gray-700 text-red-300 transition-colors transition-colors duration-100" href={cvweb} target="_blank" download>Télécharger le CV - Développement Web</a>
+                    <a className="hover:text-gray-700 text-red-300 transition-colors transition-colors duration-100" href={cvdata} target="_blank" download>Télécharger le CV - Data Science</a>
 
             </div>
 
