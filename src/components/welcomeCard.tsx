@@ -5,14 +5,12 @@ const WelcomeCard = () => {
     return (
         <div className="bg-gray-900 border border-gray-700 rounded-xl p-4 sm:p-6 text-white  h-full min-h-[200px] max-h-[400px] flex flex-col hover:border-gray-50 transition-colors duration-100 delay-50 backdrop-blur-md">
 
+
             <div className="flex flex-col sm:flex-row justify-between items-start flex-1 gap-4">
                 <div className="w-full">
                     <h2 className="text-sm text-gray-400 mb-2">welcome</h2>
                     <h3 className="text-sm sm:text-lg font-semibold mb-4">Bonjour, </h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">Étudiant en informatique titulaire d’une licence obtenue à l’université Lyon 1, je suis actuellement à la recherche
-                        d’une alternance en master développement web, logiciel, data science ou intelligence artificielle.
-                        Passionné par les nouvelles technologies,
-                        je souhaite mettre mes compétences en pratique tout en continuant à apprendre.</p>
+                    <p className="text-gray-300 text-sm leading-relaxed">Étudiant en informatique diplômé de l’Université Lyon 1, je cherche une alternance en master développement web, logiciel, data science ou IA. Passionné par les nouvelles technologies, je souhaite allier pratique et apprentissage continu.</p>
                     <p className="text-gray-300 text-sm leading-relaxed mt-4 mb-2">N’hésitez pas à me contacter si vous avez une opportunité d’alternance ou un projet à me proposer.</p>
                 </div>
                 <div>
