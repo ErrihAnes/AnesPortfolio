@@ -10,11 +10,11 @@ const WelcomeCard = () => {
                 <div className="w-full">
                     <h2 className="text-sm text-gray-400 mb-2">welcome</h2>
                     <h3 className="text-sm sm:text-lg font-semibold mb-4">Bonjour, </h3>
-                    <p className="text-gray-300 text-sm leading-relaxed">Étudiant en informatique diplômé de l’Université Lyon 1, je cherche une alternance en master développement web, logiciel ou en data science et IA. Mon objectif est de mettre en œuvre mes compétences tout en continuant à apprendre.</p>
-                    <p className="text-gray-300 text-sm leading-relaxed mt-4 mb-2">N’hésitez pas à me contacter si vous avez une opportunité d’alternance ou un projet à me proposer.</p>
+                    <p className="text-gray-300 text-xs leading-relaxed">Étudiant en informatique diplômé de l’Université Lyon 1, je cherche une alternance en master développement web, logiciel ou en data science et IA. Mon objectif est de mettre en œuvre mes compétences tout en continuant à apprendre.</p>
+                    <p className="text-gray-300 text-xs leading-relaxed mt-4 mb-2">N’hésitez pas à me contacter si vous avez une opportunité d’alternance ou un projet à me proposer.</p>
                 </div>
                 <div>
-                    <img src={avatar} alt="avatar" className="w-24 h-24 sm:w-32 sm:h-32 object-contain rounded-full border" />
+                    <img src={avatar} alt="avatar" className="w-24 h-24 sm:w-32 sm:h-32 object-contain rounded-full border mb-2"  />
                 </div>
             </div>
 
